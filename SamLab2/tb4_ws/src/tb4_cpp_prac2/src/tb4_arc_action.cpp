@@ -132,7 +132,13 @@ void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoal
   
   geometry_msgs::msg::Twist cmd_vel;
   cmd_vel.linear.set__x(goal->max_translation_speed);
-  cmd_vel.angular.set__z(goal->max_translation_speed / goal->radius);
+  if (goal->translate_direction > 0) {
+    cmd_vel.angular.set__z(goal->max_translation_speed / goal->radius);
+  } 
+  
+  else {
+    cmd_vel.angular.set__z(-goal->max_translation_speed / goal->radius);
+  }
   
   int pub_freq = 100;
   rclcpp::Rate loop_rate(pub_freq);
