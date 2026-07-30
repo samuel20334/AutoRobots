@@ -154,8 +154,8 @@ void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoal
     
     remaining_angle_travel = goal->angle - (goal->max_translation_speed/goal->radius)*i/pub_freq;
     cmd_vel_publisher_->publish(cmd_vel);
-    goal_handle->succeed(result);
-    RCLCPP_INFO(this->get_logger(), "Goal succeeded");
+    goal_handle->publish_feedback(feedback);
+    loop_rate.sleep();
   }
   
   if(rclcpp::ok()) {
