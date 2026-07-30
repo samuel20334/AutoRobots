@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2 -- -j6 -l6
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target tb4_arc_action[0m
+[0.126s] [ 50%] [32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o[0m
+[2.706s] [01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Kvoid TB4ArcActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >)[m[K’:
+[2.706s] [01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:130:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct irobot_create_msgs::action::DriveArc_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct irobot_create_msgs::action::DriveArc_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kremaining_travel_distance[m[K’
+[2.706s]   130 |   auto &remaining_travel_distance = feedback->[01;31m[Kremaining_travel_distance[m[K;
+[2.706s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.708s] [01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:135:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+[2.708s]   135 |   cmd_vel.angular.set__z(goal->max_translation_speed / goal->radius)
+[2.708s]       |                                                                     [01;31m[K^[m[K
+[2.708s]       |                                                                     [32m[K;[m[K
+[2.708s]   136 | 
+[2.708s]   137 |   [32m[Kint[m[K pub_freq = 100;
+[2.708s]       |   [32m[K~~~[m[K                                                                
+[2.715s] [01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:138:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_freq[m[K’ was not declared in this scope
+[2.715s]   138 |   rclcpp::Rate loop_rate([01;31m[Kpub_freq[m[K);
+[2.715s]       |                          [01;31m[K^~~~~~~~[m[K
+[5.564s] gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1
+[5.564s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2
+[5.564s] gmake: *** [Makefile:146: all] Error 2
+[5.567s] Invoked command in '/home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2 -- -j6 -l6

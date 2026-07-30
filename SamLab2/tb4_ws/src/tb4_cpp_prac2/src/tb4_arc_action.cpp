@@ -123,7 +123,46 @@ rclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(
 */
 void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc>> goal_handle)
 {
- 
+  RCLCPP_INFO(this->get_logger(), "Executing goal");
+  const auto goal = goal_handle->get_goal();
+  auto feedback = std::make_shared<Drive_Arc::Feedback>();
+  
+  auto &remaining_angle_travel = feedback->remaining_angle_travel;
+  auto result = std::make_shared<Drive_Arc::Result>();
+  
+  geometry_msgs::msg::Twist cmd_vel;
+  cmd_vel.linear.set__x(goal->max_translation_speed);
+  cmd_vel.angular.set__z(goal->max_translation_speed / goal->radius);
+  
+  int pub_freq = 100;
+  rclcpp::Rate loop_rate(pub_freq);
+  
+  int count = int(pub_freq*goal->angle/(goal->max_translation_speed/goal->radius));
+  
+  geometry_msgs::msg::PoseStamped pose_stamped;
+  
+  for (int i = 0; (i<count) && rclcpp::ok(); ++i) {
+    pose_stamped.header = odom_->header;
+    pose_stamped.pose = odom_->pose.pose;
+    
+    if (goal_handle->is_canceling()) {
+      result->set__pose(pose_stamped);
+      goal_handle->canceled(result);
+      RCLCPP_INFO(this->get_logger(), "Goal canceled");
+      return;
+    }
+    
+    remaining_angle_travel = goal->angle - (goal->max_translation_speed/goal->radius)*i/pub_freq;
+    cmd_vel_publisher_->publish(cmd_vel);
+    goal_handle->succeed(result);
+    RCLCPP_INFO(this->get_logger(), "Goal succeeded");
+  }
+  
+  if(rclcpp::ok()) {
+    result->set__pose(pose_stamped);
+    goal_handle->succeed(result);
+    RCLCPP_INFO(this->get_logger(), "Goal succeeded");
+  }
 }
 
 int main(int argc, char ** argv)

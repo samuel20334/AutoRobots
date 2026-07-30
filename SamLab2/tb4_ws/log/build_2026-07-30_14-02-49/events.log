@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000765] (tb4_cpp_prac2) JobQueued: {'identifier': 'tb4_cpp_prac2', 'dependencies': OrderedDict()}
+[0.000804] (tb4_cpp_prac2) JobStarted: {'identifier': 'tb4_cpp_prac2'}
+[0.012166] (tb4_cpp_prac2) JobProgress: {'identifier': 'tb4_cpp_prac2', 'progress': 'cmake'}
+[0.012960] (tb4_cpp_prac2) JobProgress: {'identifier': 'tb4_cpp_prac2', 'progress': 'build'}
+[0.013875] (tb4_cpp_prac2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2', '--', '-j6', '-l6'], 'cwd': '/home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '102279'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-05:@/tmp/.ICE-unix/102250,unix/V-2204-HPLC-05:/tmp/.ICE-unix/102250'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/31fe1cc9_0928_4221_95f0_562973a21388'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074327] (tb4_cpp_prac2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb4_arc_action\x1b[0m\n'}
+[0.099849] (-) TimerEvent: {}
+[0.126921] (tb4_cpp_prac2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o\x1b[0m\n'}
+[0.199972] (-) TimerEvent: {}
+[0.300319] (-) TimerEvent: {}
+[0.400730] (-) TimerEvent: {}
+[0.501104] (-) TimerEvent: {}
+[0.601448] (-) TimerEvent: {}
+[0.701784] (-) TimerEvent: {}
+[0.802116] (-) TimerEvent: {}
+[0.902536] (-) TimerEvent: {}
+[1.002891] (-) TimerEvent: {}
+[1.103225] (-) TimerEvent: {}
+[1.203575] (-) TimerEvent: {}
+[1.303942] (-) TimerEvent: {}
+[1.404286] (-) TimerEvent: {}
+[1.504626] (-) TimerEvent: {}
+[1.605009] (-) TimerEvent: {}
+[1.705373] (-) TimerEvent: {}
+[1.805725] (-) TimerEvent: {}
+[1.906047] (-) TimerEvent: {}
+[2.006382] (-) TimerEvent: {}
+[2.106752] (-) TimerEvent: {}
+[2.207117] (-) TimerEvent: {}
+[2.307473] (-) TimerEvent: {}
+[2.407915] (-) TimerEvent: {}
+[2.508290] (-) TimerEvent: {}
+[2.608633] (-) TimerEvent: {}
+[2.706781] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TB4ArcActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.706998] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:130:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct irobot_create_msgs::action::DriveArc_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct irobot_create_msgs::action::DriveArc_Feedback_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kremaining_travel_distance\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.707060] (tb4_cpp_prac2) StderrLine: {'line': b'  130 |   auto &remaining_travel_distance = feedback->\x1b[01;31m\x1b[Kremaining_travel_distance\x1b[m\x1b[K;\n'}
+[2.707117] (tb4_cpp_prac2) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.708744] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:135:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.708822] (-) TimerEvent: {}
+[2.708928] (tb4_cpp_prac2) StderrLine: {'line': b'  135 |   cmd_vel.angular.set__z(goal->max_translation_speed / goal->radius)\n'}
+[2.708983] (tb4_cpp_prac2) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.709032] (tb4_cpp_prac2) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.709080] (tb4_cpp_prac2) StderrLine: {'line': b'  136 | \n'}
+[2.709127] (tb4_cpp_prac2) StderrLine: {'line': b'  137 |   \x1b[32m\x1b[Kint\x1b[m\x1b[K pub_freq = 100;\n'}
+[2.709173] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[32m\x1b[K~~~\x1b[m\x1b[K                                                                \n'}
+[2.715296] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:138:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_freq\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.715415] (tb4_cpp_prac2) StderrLine: {'line': b'  138 |   rclcpp::Rate loop_rate(\x1b[01;31m\x1b[Kpub_freq\x1b[m\x1b[K);\n'}
+[2.715464] (tb4_cpp_prac2) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.808964] (-) TimerEvent: {}
+[2.909316] (-) TimerEvent: {}
+[3.009660] (-) TimerEvent: {}
+[3.110019] (-) TimerEvent: {}
+[3.210361] (-) TimerEvent: {}
+[3.310761] (-) TimerEvent: {}
+[3.411192] (-) TimerEvent: {}
+[3.511522] (-) TimerEvent: {}
+[3.611905] (-) TimerEvent: {}
+[3.712236] (-) TimerEvent: {}
+[3.812661] (-) TimerEvent: {}
+[3.913049] (-) TimerEvent: {}
+[4.013381] (-) TimerEvent: {}
+[4.113728] (-) TimerEvent: {}
+[4.214050] (-) TimerEvent: {}
+[4.314370] (-) TimerEvent: {}
+[4.414751] (-) TimerEvent: {}
+[4.515101] (-) TimerEvent: {}
+[4.615446] (-) TimerEvent: {}
+[4.715793] (-) TimerEvent: {}
+[4.816088] (-) TimerEvent: {}
+[4.916429] (-) TimerEvent: {}
+[5.016777] (-) TimerEvent: {}
+[5.117105] (-) TimerEvent: {}
+[5.217449] (-) TimerEvent: {}
+[5.317798] (-) TimerEvent: {}
+[5.418137] (-) TimerEvent: {}
+[5.518495] (-) TimerEvent: {}
+[5.564353] (tb4_cpp_prac2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1\n'}
+[5.564606] (tb4_cpp_prac2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2\n'}
+[5.564815] (tb4_cpp_prac2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.567195] (tb4_cpp_prac2) CommandEnded: {'returncode': 2}
+[5.591420] (tb4_cpp_prac2) JobEnded: {'identifier': 'tb4_cpp_prac2', 'rc': 2}
+[5.601847] (-) EventReactorShutdown: {}
