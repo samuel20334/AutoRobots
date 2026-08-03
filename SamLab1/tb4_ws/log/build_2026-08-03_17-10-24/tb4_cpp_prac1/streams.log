@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1 -- -j6 -l6
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target tb4_cpp_action_server[0m
+[0.067s] [ 33%] Built target tb4_cpp_node
+[0.070s] [ 66%] Built target tb4_cpp_srv_server
+[0.075s] [ 83%] [32mBuilding CXX object CMakeFiles/tb4_cpp_action_server.dir/src/tb4_cpp_action_server.cpp.o[0m
+[9.641s] [100%] [32m[1mLinking CXX executable tb4_cpp_action_server[0m
+[10.069s] [100%] Built target tb4_cpp_action_server
+[10.081s] Invoked command in '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1 -- -j6 -l6
+[10.091s] Invoking command in '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1
+[10.098s] -- Install configuration: ""
+[10.099s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/lib/tb4_cpp_prac1/tb4_cpp_node
+[10.099s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/lib/tb4_cpp_prac1/tb4_cpp_srv_server
+[10.099s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/lib/tb4_cpp_prac1/tb4_cpp_action_server
+[10.102s] -- Set runtime path of "/home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/lib/tb4_cpp_prac1/tb4_cpp_action_server" to ""
+[10.102s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac1
+[10.102s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac1
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/ament_prefix_path.sh
+[10.103s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/ament_prefix_path.dsv
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/path.sh
+[10.103s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/path.dsv
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.bash
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.sh
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.zsh
+[10.103s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.dsv
+[10.103s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/package.dsv
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/ament_index/resource_index/packages/tb4_cpp_prac1
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/cmake/tb4_cpp_prac1Config.cmake
+[10.103s] -- Up-to-date: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/cmake/tb4_cpp_prac1Config-version.cmake
+[10.103s] -- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/package.xml
+[10.106s] Invoked command in '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1

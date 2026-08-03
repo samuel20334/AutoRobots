@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f3e0cc10c69447052504.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tb4_cpp_prac1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tb4_cpp_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb4_cpp_action_server-026e48434e066dfd93f6.json",
+					"name" : "tb4_cpp_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb4_cpp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb4_cpp_node-54a352346e37dff74628.json",
+					"name" : "tb4_cpp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb4_cpp_prac1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb4_cpp_prac1_uninstall-ca7d097a394f4a7571f5.json",
+					"name" : "tb4_cpp_prac1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb4_cpp_srv_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb4_cpp_srv_server-dad3a879b51e2e66afe9.json",
+					"name" : "tb4_cpp_srv_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-735d4db21f6f04f0de35.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1",
+		"source" : "/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,7 @@
+[01m[K/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1/src/tb4_cpp_action_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1/src/tb4_cpp_action_server.cpp:156:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude[m[K’ was not declared in this scope
+  156 |   [01;31m[Kinclude[m[K subscriber callback
+      |   [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tb4_cpp_action_server.dir/build.make:76: CMakeFiles/tb4_cpp_action_server.dir/src/tb4_cpp_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tb4_cpp_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

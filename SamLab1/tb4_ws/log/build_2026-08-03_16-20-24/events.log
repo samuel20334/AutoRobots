@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000780] (tb4_cpp_prac1) JobQueued: {'identifier': 'tb4_cpp_prac1', 'dependencies': OrderedDict()}
+[0.000893] (tb4_cpp_prac1) JobStarted: {'identifier': 'tb4_cpp_prac1'}
+[0.007833] (tb4_cpp_prac1) JobProgress: {'identifier': 'tb4_cpp_prac1', 'progress': 'cmake'}
+[0.010614] (tb4_cpp_prac1) Command: {'cmd': ['/usr/bin/cmake', '/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1', '-DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1'], 'cwd': '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '106719'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-11:@/tmp/.ICE-unix/106689,unix/V-2204-HPLC-11:/tmp/.ICE-unix/106689'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb7aad8f_c6cc_4774_a976_0423bca02af0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install/tb4_cpp_prac1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install/tb4_cpp_prac1:/opt/ros/humble')]), 'shell': False}
+[0.099568] (-) TimerEvent: {}
+[0.173198] (tb4_cpp_prac1) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.199685] (-) TimerEvent: {}
+[0.299895] (tb4_cpp_prac1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.300079] (-) TimerEvent: {}
+[0.354231] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400215] (-) TimerEvent: {}
+[0.431383] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.438662] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.439619] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.448449] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.456653] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500371] (-) TimerEvent: {}
+[0.539872] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.547525] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.548541] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.548705] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.565273] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600511] (-) TimerEvent: {}
+[0.700830] (-) TimerEvent: {}
+[0.801130] (-) TimerEvent: {}
+[0.827665] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901269] (-) TimerEvent: {}
+[1.001644] (-) TimerEvent: {}
+[1.102005] (-) TimerEvent: {}
+[1.202344] (-) TimerEvent: {}
+[1.222048] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.302491] (-) TimerEvent: {}
+[1.375863] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.381568] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.396424] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.402606] (-) TimerEvent: {}
+[1.422707] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.459349] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.502757] (-) TimerEvent: {}
+[1.603117] (-) TimerEvent: {}
+[1.648314] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.662876] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.703244] (-) TimerEvent: {}
+[1.803606] (-) TimerEvent: {}
+[1.903940] (-) TimerEvent: {}
+[1.980759] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.004084] (-) TimerEvent: {}
+[2.028480] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.071892] (tb4_cpp_prac1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.104201] (-) TimerEvent: {}
+[2.148263] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.204329] (-) TimerEvent: {}
+[2.304720] (-) TimerEvent: {}
+[2.331087] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.331861] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.404845] (-) TimerEvent: {}
+[2.412295] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.413324] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.504963] (-) TimerEvent: {}
+[2.604880] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)\n'}
+[2.605068] (-) TimerEvent: {}
+[2.705317] (-) TimerEvent: {}
+[2.786159] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.805424] (-) TimerEvent: {}
+[2.905755] (-) TimerEvent: {}
+[2.926555] (tb4_cpp_prac1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.926773] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1/include>\n'}
+[2.926829] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.936897] (tb4_cpp_prac1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.940243] (tb4_cpp_prac1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.940399] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.941994] (tb4_cpp_prac1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.949514] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.959558] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Generating done\n'}
+[2.965539] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Build files have been written to: /home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1\n'}
+[2.974548] (tb4_cpp_prac1) CommandEnded: {'returncode': 0}
+[2.975168] (tb4_cpp_prac1) JobProgress: {'identifier': 'tb4_cpp_prac1', 'progress': 'build'}
+[2.975979] (tb4_cpp_prac1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1', '--', '-j6', '-l6'], 'cwd': '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '106719'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-11:@/tmp/.ICE-unix/106689,unix/V-2204-HPLC-11:/tmp/.ICE-unix/106689'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb7aad8f_c6cc_4774_a976_0423bca02af0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install/tb4_cpp_prac1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install/tb4_cpp_prac1:/opt/ros/humble')]), 'shell': False}
+[3.005884] (-) TimerEvent: {}
+[3.025367] (tb4_cpp_prac1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb4_cpp_node.dir/src/tb4_cpp_node.cpp.o\x1b[0m\n'}
+[3.105995] (-) TimerEvent: {}
+[3.206407] (-) TimerEvent: {}
+[3.306779] (-) TimerEvent: {}
+[3.407121] (-) TimerEvent: {}
+[3.507534] (-) TimerEvent: {}
+[3.607908] (-) TimerEvent: {}
+[3.708252] (-) TimerEvent: {}
+[3.808635] (-) TimerEvent: {}
+[3.909002] (-) TimerEvent: {}
+[4.009352] (-) TimerEvent: {}
+[4.109726] (-) TimerEvent: {}
+[4.210046] (-) TimerEvent: {}
+[4.310395] (-) TimerEvent: {}
+[4.410780] (-) TimerEvent: {}
+[4.511127] (-) TimerEvent: {}
+[4.611512] (-) TimerEvent: {}
+[4.712082] (-) TimerEvent: {}
+[4.812485] (-) TimerEvent: {}
+[4.912834] (-) TimerEvent: {}
+[5.013210] (-) TimerEvent: {}
+[5.113572] (-) TimerEvent: {}
+[5.213909] (-) TimerEvent: {}
+[5.314301] (-) TimerEvent: {}
+[5.414693] (-) TimerEvent: {}
+[5.515063] (-) TimerEvent: {}
+[5.615496] (-) TimerEvent: {}
+[5.715820] (-) TimerEvent: {}
+[5.816187] (-) TimerEvent: {}
+[5.916528] (-) TimerEvent: {}
+[6.016862] (-) TimerEvent: {}
+[6.117248] (-) TimerEvent: {}
+[6.217632] (-) TimerEvent: {}
+[6.317966] (-) TimerEvent: {}
+[6.418304] (-) TimerEvent: {}
+[6.518758] (-) TimerEvent: {}
+[6.619085] (-) TimerEvent: {}
+[6.719428] (-) TimerEvent: {}
+[6.819803] (-) TimerEvent: {}
+[6.920147] (-) TimerEvent: {}
+[7.020514] (-) TimerEvent: {}
+[7.120850] (-) TimerEvent: {}
+[7.221199] (-) TimerEvent: {}
+[7.321537] (-) TimerEvent: {}
+[7.421870] (-) TimerEvent: {}
+[7.522279] (-) TimerEvent: {}
+[7.622653] (-) TimerEvent: {}
+[7.722994] (-) TimerEvent: {}
+[7.823402] (-) TimerEvent: {}
+[7.923791] (-) TimerEvent: {}
+[8.024142] (-) TimerEvent: {}
+[8.124506] (-) TimerEvent: {}
+[8.224845] (-) TimerEvent: {}
+[8.325209] (-) TimerEvent: {}
+[8.425544] (-) TimerEvent: {}
+[8.525922] (-) TimerEvent: {}
+[8.626258] (-) TimerEvent: {}
+[8.726629] (-) TimerEvent: {}
+[8.826970] (-) TimerEvent: {}
+[8.927318] (-) TimerEvent: {}
+[9.027685] (-) TimerEvent: {}
+[9.128021] (-) TimerEvent: {}
+[9.228338] (-) TimerEvent: {}
+[9.328702] (-) TimerEvent: {}
+[9.429023] (-) TimerEvent: {}
+[9.529339] (-) TimerEvent: {}
+[9.629709] (-) TimerEvent: {}
+[9.730124] (-) TimerEvent: {}
+[9.830521] (-) TimerEvent: {}
+[9.930861] (-) TimerEvent: {}
+[10.031198] (-) TimerEvent: {}
+[10.131551] (-) TimerEvent: {}
+[10.231874] (-) TimerEvent: {}
+[10.332275] (-) TimerEvent: {}
+[10.432658] (-) TimerEvent: {}
+[10.532981] (-) TimerEvent: {}
+[10.633369] (-) TimerEvent: {}
+[10.733863] (-) TimerEvent: {}
+[10.834210] (-) TimerEvent: {}
+[10.934546] (-) TimerEvent: {}
+[11.034890] (-) TimerEvent: {}
+[11.135228] (-) TimerEvent: {}
+[11.235665] (-) TimerEvent: {}
+[11.335985] (-) TimerEvent: {}
+[11.436323] (-) TimerEvent: {}
+[11.536687] (-) TimerEvent: {}
+[11.637061] (-) TimerEvent: {}
+[11.737508] (-) TimerEvent: {}
+[11.741397] (tb4_cpp_prac1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tb4_cpp_node\x1b[0m\n'}
+[11.837634] (-) TimerEvent: {}
+[11.938035] (-) TimerEvent: {}
+[12.038393] (-) TimerEvent: {}
+[12.138770] (-) TimerEvent: {}
+[12.163891] (tb4_cpp_prac1) StdoutLine: {'line': b'[100%] Built target tb4_cpp_node\n'}
+[12.177422] (tb4_cpp_prac1) CommandEnded: {'returncode': 0}
+[12.178132] (tb4_cpp_prac1) JobProgress: {'identifier': 'tb4_cpp_prac1', 'progress': 'install'}
+[12.187889] (tb4_cpp_prac1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1'], 'cwd': '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots/SamLab1/tb4_ws/src/tb4_cpp_prac1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '106719'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-11:@/tmp/.ICE-unix/106689,unix/V-2204-HPLC-11:/tmp/.ICE-unix/106689'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb7aad8f_c6cc_4774_a976_0423bca02af0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install/tb4_cpp_prac1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab1/tb4_ws/build/tb4_cpp_prac1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotai/AutoRobots/tb4_ws/install/tb4_cpp_prac1:/opt/ros/humble')]), 'shell': False}
+[12.195721] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.195941] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/lib/tb4_cpp_prac1/tb4_cpp_node\n'}
+[12.199092] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Set runtime path of "/home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/lib/tb4_cpp_prac1/tb4_cpp_node" to ""\n'}
+[12.199337] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac1\n'}
+[12.199658] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac1\n'}
+[12.199721] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/ament_prefix_path.sh\n'}
+[12.200054] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/ament_prefix_path.dsv\n'}
+[12.200118] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/path.sh\n'}
+[12.200165] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/environment/path.dsv\n'}
+[12.200210] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.bash\n'}
+[12.200254] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.sh\n'}
+[12.201059] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.zsh\n'}
+[12.201912] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/local_setup.dsv\n'}
+[12.202305] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/package.dsv\n'}
+[12.202363] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/ament_index/resource_index/packages/tb4_cpp_prac1\n'}
+[12.202407] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/cmake/tb4_cpp_prac1Config.cmake\n'}
+[12.202465] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/cmake/tb4_cpp_prac1Config-version.cmake\n'}
+[12.202510] (tb4_cpp_prac1) StdoutLine: {'line': b'-- Installing: /home/robotai/AutoRobots/SamLab1/tb4_ws/install/tb4_cpp_prac1/share/tb4_cpp_prac1/package.xml\n'}
+[12.205661] (tb4_cpp_prac1) CommandEnded: {'returncode': 0}
+[12.219116] (tb4_cpp_prac1) JobEnded: {'identifier': 'tb4_cpp_prac1', 'rc': 0}
+[12.219809] (-) EventReactorShutdown: {}
