@@ -111,9 +111,18 @@ rclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(
 )
 {
   RCLCPP_INFO(this->get_logger(),
-    "Received goal request with radius at %f m and angle at %f rad",
+    "Received goal request with radius at %f m, angle at %f rad, max trans speed at %f m/s and translate direction %f",
     goal->radius,
-    goal->angle);
+    goal->angle,
+    goal->max_translation_speed,
+    goal->translate_direction);
+
+  // Check if goal request is valid
+  if (goal->radius <= 0 || goal->max_translation_speed <= 0 || goal->angle <= 0) {
+    RCLCPP_INFO(this->get_logger(), "Invalid request received");
+    return rclcpp_action::GoalResponse::REJECT;
+  }
+
   (void)uuid;
   return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
   
@@ -153,6 +162,8 @@ void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoal
     
     if (goal_handle->is_canceling()) {
       result->set__pose(pose_stamped);
+      geometry_msgs::msg::Twist stop_cmd; // stop the robot
+      cmd_vel_publisher_->publish(stop_cmd);
       goal_handle->canceled(result);
       RCLCPP_INFO(this->get_logger(), "Goal canceled");
       return;
@@ -166,6 +177,8 @@ void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoal
   
   if(rclcpp::ok()) {
     result->set__pose(pose_stamped);
+    geometry_msgs::msg::Twist stop_cmd; // stop the robot
+    cmd_vel_publisher_->publish(stop_cmd);
     goal_handle->succeed(result);
     RCLCPP_INFO(this->get_logger(), "Goal succeeded");
   }
