@@ -1,0 +1,73 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robotai/AutoRobots/SamLab2/tb4_ws/build/tb4_cpp_prac2
+[35m[1mConsolidate compiler generated dependencies of target tb4_arc_action[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4[m[K:
+[01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(const rclcpp_action::GoalUUID&, std::shared_ptr<const irobot_create_msgs::action::DriveArc_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:114:5:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  114 |     [01;35m[K"Received goal request with radius at %f m, angle at %f rad, max trans speed at %f m/s and translate direction %f"[m[K,
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+......
+  118 |     [32m[Kgoal->translate_direction[m[K);
+      |     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[K|[m[K
+      |           [32m[Kint[m[K
+[01m[K/home/robotai/AutoRobots/SamLab2/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:114:117:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  114 | angle at %f rad, max trans speed at %f m/s and translate direction [01;36m[K%f[m[K",
+      |                                                                    [01;36m[K~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kdouble[m[K
+      |                                                                    [32m[K%d[m[K
+[100%] [32m[1mLinking CXX executable tb4_arc_action[0m
+[100%] Built target tb4_arc_action
+-- Install configuration: ""
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/lib/tb4_cpp_prac2/tb4_arc_action
+-- Set runtime path of "/home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/lib/tb4_cpp_prac2/tb4_arc_action" to ""
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac2
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac2
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/ament_prefix_path.sh
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/ament_prefix_path.dsv
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/path.sh
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/path.dsv
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.bash
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.sh
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.zsh
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.dsv
+-- Installing: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/package.dsv
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/packages/tb4_cpp_prac2
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/cmake/tb4_cpp_prac2Config.cmake
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/cmake/tb4_cpp_prac2Config-version.cmake
+-- Up-to-date: /home/robotai/AutoRobots/SamLab2/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/package.xml

@@ -111,7 +111,7 @@ rclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(
 )
 {
   RCLCPP_INFO(this->get_logger(),
-    "Received goal request with radius at %f m, angle at %f rad, max trans speed at %f m/s and translate direction %f",
+    "Received goal request with radius at %f m, angle at %f rad, max trans speed at %f m/s and translate direction %d",
     goal->radius,
     goal->angle,
     goal->max_translation_speed,
