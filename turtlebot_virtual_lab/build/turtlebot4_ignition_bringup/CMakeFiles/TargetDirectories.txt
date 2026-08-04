@@ -1,9 +1,0 @@
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/uninstall.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/turtlebot4_ignition_bringup_uninstall.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/test.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/edit_cache.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/rebuild_cache.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/list_install_components.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/install.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/install/local.dir
-/home/robotai/AutoRobots/turtlebot_virtual_lab/build/turtlebot4_ignition_bringup/CMakeFiles/install/strip.dir
