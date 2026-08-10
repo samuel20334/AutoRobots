@@ -133,7 +133,56 @@ rclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(
 */
 void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc>> goal_handle)
 {
- 
+ 	RCLCPP_INFO(this->get_logger(), "Executing goal");
+	const auto goal = goal_handle->get_goal();	//Grabs the goal messagge
+	auto feedback = std::make_shared<Drive_Arc::Feedback>();	//Grabs and initialises feedback in action interface
+	auto & remaining_angle_travel = feedback->remaining_angke_distance;	//Point to the feedback value that we want
+	auto result = std::make_shared<Drive_Arc::Result>(); // just accesses result information
+	
+	geometry_msgs::msg::Twist cmd_vel;
+	cmd_vel.linear.set__x(goal->max_translation_speed);	//Calcuating linear translation
+	if (goal->translate_direction > 0) {
+		cmd_vel.angular.set__z(goal->max_translation_speed / goal->radius);
+		} 
+	  
+	else {
+	    cmd_vel.angular.set__z(-goal->max_translation_speed / goal->radius);
+	 	}
+  
+	
+	int pub_freq = 100;
+	rclcpp::Rate loop_rate(pub_freq);
+
+	
+	int count = int(pub_freq*goal->angle/(goal->max_translation_speed/goal->radius)); // To get time as a function of radians, speed and radius
+	geometry_msgs::msg::PoseStamped pose_stamped;
+	
+	for (int i = 0; (i<count) && rclcpp::ok(); ++i)
+	{
+	pose_stamped.header = odom_->header;
+	pose_stamped.pose = odom_->pose.pose;
+		
+	if (goal_handle->is_canceling()) {	//Handling cancel requests during goal execution
+		result->set__pose(pose_stamped);
+		goal_handle->canceled(result);
+		RCLCPP_INFO(this->get_logger(), "Goal canceled");
+		return;
+		}
+		
+	remaining_travel_distance = goal->distance - goal->max_translation_speed/goal->radius*i/pub_freq;
+	// Publish the command velocity
+	cmd_vel_publisher_->publish(cmd_vel);
+	// Publish feedback
+	goal_handle->publish_feedback(feedback);
+	loop_rate.sleep();
+	}
+	
+	// Check if goal is done
+	if(rclcpp::ok()){
+		result->set__pose(pose_stamped);
+		goal_handle->succeed(result);
+		RCLCPP_INFO(this->get_logger(), "Goal succeeded");
+		}
 }
 
 int main(int argc, char ** argv)
