@@ -123,8 +123,17 @@ rclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(
 {
   RCLCPP_INFO(this->get_logger(),
   "Received goal request with travel distance at %f m and maximum speed at %f m/s",
-  goal->distance,
-  goal->max_translation_speed);
+  goal->radius,
+  goal->angle,
+  goal->max_translation_speed,
+  goal->translate_direction);
+
+  // Check if goal request is valid, ie radius,speed,angle>0
+  if (goal->radius <= 0 || goal->max_translation_speed <= 0 || goal->angle <= 0) {
+    RCLCPP_INFO(this->get_logger(), "Invalid request received");
+    return rclcpp_action::GoalResponse::REJECT;
+  }
+	
   (void)uuid;
   return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
 }
@@ -136,7 +145,7 @@ void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoal
  	RCLCPP_INFO(this->get_logger(), "Executing goal");
 	const auto goal = goal_handle->get_goal();	//Grabs the goal messagge
 	auto feedback = std::make_shared<Drive_Arc::Feedback>();	//Grabs and initialises feedback in action interface
-	auto & remaining_angle_travel = feedback->remaining_angke_distance;	//Point to the feedback value that we want
+	auto & remaining_angle_travel = feedback->remaining_angle_distance;	//Point to the feedback value that we want
 	auto result = std::make_shared<Drive_Arc::Result>(); // just accesses result information
 	
 	geometry_msgs::msg::Twist cmd_vel;
@@ -154,7 +163,7 @@ void TB4ArcActionServer::execute(const std::shared_ptr<rclcpp_action::ServerGoal
 	rclcpp::Rate loop_rate(pub_freq);
 
 	
-	int count = int(pub_freq*goal->angle/(goal->max_translation_speed/goal->radius)); // To get time as a function of radians, speed and radius
+	int count = int(pub_freq*goal->angle/(goal->max_translation_speed/goal->radius)); // To get time as a function of angle and angular speed
 	geometry_msgs::msg::PoseStamped pose_stamped;
 	
 	for (int i = 0; (i<count) && rclcpp::ok(); ++i)
