@@ -166,7 +166,7 @@ tb4_arc_action: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtp
 tb4_arc_action: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 tb4_arc_action: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 tb4_arc_action: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-tb4_arc_action: /opt/ros/humble/lib/libfastcdr.so.1.0.29
+tb4_arc_action: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 tb4_arc_action: /opt/ros/humble/lib/librmw.so
 tb4_arc_action: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 tb4_arc_action: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so

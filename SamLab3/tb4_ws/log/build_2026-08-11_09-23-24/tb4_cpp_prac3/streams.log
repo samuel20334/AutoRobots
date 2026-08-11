@@ -1,0 +1,42 @@
+[0.005s] Invoking command in '/home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3 -- -j24 -l24
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target person_follower[0m
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/person_follower.dir/src/person_follower.cpp.o[0m
+[0.929s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.929s]                  from [01m[K/home/robotai/AutoRobots/SamLab3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:8[m[K:
+[0.929s] [01m[K/home/robotai/AutoRobots/SamLab3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:[m[K In member function ‘[01m[Kvoid PersonFollower::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.929s] [01m[K/home/robotai/AutoRobots/SamLab3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:125:39:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[0.929s]   125 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Min Distance: {}"[m[K, min_distance);
+[0.930s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.385s] [100%] [32m[1mLinking CXX executable person_follower[0m
+[3.561s] [100%] Built target person_follower
+[3.566s] Invoked command in '/home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3 -- -j24 -l24
+[3.584s] Invoking command in '/home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3
+[3.588s] -- Install configuration: ""
+[3.588s] -- Installing: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower
+[3.589s] -- Set runtime path of "/home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower" to ""
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac3
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac3
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.sh
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.dsv
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.sh
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.dsv
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.bash
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.sh
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.zsh
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.dsv
+[3.589s] -- Installing: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.dsv
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/packages/tb4_cpp_prac3
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config.cmake
+[3.589s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config-version.cmake
+[3.590s] -- Up-to-date: /home/robotai/AutoRobots/SamLab3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.xml
+[3.590s] Invoked command in '/home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab3/tb4_ws/build/tb4_cpp_prac3
