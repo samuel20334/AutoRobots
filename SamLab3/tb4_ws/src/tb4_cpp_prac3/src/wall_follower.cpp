@@ -4,6 +4,7 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <cmath>
 
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -151,6 +152,7 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
     // Use the index to calculate the angle where the smallest range is measured.
     float min_angle = (min_index - 320)*2*PI/640.0;
 
+    float heading_error = min_angle - following_angle_;
     geometry_msgs::msg::Twist cmd_vel_msg;
 
     if(min_value<12) 
@@ -170,12 +172,18 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
         }
         // drive along the wall at a fixed distance
         else{ 
-            if(wall_side_>0)
-                cmd_vel_msg.angular.z = angle_control_gain_1_*(min_angle - following_angle_) + angle_control_gain_2_*(min_value - following_distance_);
-            else
-                cmd_vel_msg.angular.z = angle_control_gain_1_*(min_angle - following_angle_) - angle_control_gain_2_*(min_value - following_distance_);
-                
-            cmd_vel_msg.linear.x = forward_velocity_ + distance_control_gain_*(min_value - following_distance_);
+            if(wall_side_>0) {
+                if (abs(heading_error) > PI/10)
+                    cmd_vel_msg.angular.z = angle_control_gain_1_*heading_error + angle_control_gain_2_*heading_error*(std::sin(heading_error)/heading_error);
+                else
+                    cmd_vel_msg.angular.z = angle_control_gain_1_*heading_error + angle_control_gain_2_*heading_error;
+            } else {
+                if (abs(heading_error) > PI/10)
+                    cmd_vel_msg.angular.z = angle_control_gain_1_*heading_error - angle_control_gain_2_*heading_error*(std::sin(heading_error)/heading_error);
+                else
+                    cmd_vel_msg.angular.z = angle_control_gain_1_*heading_error - angle_control_gain_2_*heading_error;
+            }   
+            cmd_vel_msg.linear.x = forward_velocity_ // constant linear velocity
         }
     }
     else // No valid measurement is available, move forward at a constant speed.
