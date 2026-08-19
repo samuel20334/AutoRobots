@@ -183,7 +183,7 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
                 else
                     cmd_vel_msg.angular.z = angle_control_gain_1_*heading_error - angle_control_gain_2_*heading_error;
             }   
-            cmd_vel_msg.linear.x = forward_velocity_ // constant linear velocity
+            cmd_vel_msg.linear.x = forward_velocity_; // constant linear velocity
         }
     }
     else // No valid measurement is available, move forward at a constant speed.
