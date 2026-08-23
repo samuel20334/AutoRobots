@@ -114,13 +114,14 @@ void PersonFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr 
 
   float min_value = *min_distance;
   int min_index = std::distance(scan_msg->ranges.begin(), min_distance);
-  float min_angle = (min_index - 320)*2*PI/640.0;
+  float angle_l = scan_msg->angle_min + scan_msg->angle_increment * min_index;
+  float min_angle = angle_l + PI/2;
 
   geometry_msgs::msg::Twist cmd_vel_msg;
-  if(min_value < 12)
+  if(min_value < scan_msg->range_max)
   {
       cmd_vel_msg.angular.z = angle_control_gain_*(min_angle - following_angle_);
-      cmd_vel_msg.linear.x = followindistance_control_gain_*(min_value - following_distance_);
+      cmd_vel_msg.linear.x = std::max(0.0f, followindistance_control_gain_*(min_value - following_distance_));
       RCLCPP_INFO(this->get_logger(), "Object Detected");
   }
   else
@@ -155,12 +156,6 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
       */
       else if (param_name == "following_angle") {
         following_angle_ = parameter.as_double();
-        if(following_angle_<0.0)
-        {
-          RCLCPP_WARN(this->get_logger(), "You've set following_angle to be negative,"
-          " this isn't allowed, so the alpha1 will be set to be zero.");
-          following_angle_ = 0.0;
-        }
       }
       else if (param_name == "angle_control_gain") {
         angle_control_gain_ = parameter.as_double();
@@ -171,11 +166,11 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
           angle_control_gain_ = 0.0;
         }
       }
-      else if (param_name == "followindistance_control_gain") {
+      else if (param_name == "distance_control_gain") {
         followindistance_control_gain_ = parameter.as_double();
         if(followindistance_control_gain_<0.0)
         {
-          RCLCPP_WARN(this->get_logger(), "You've set followindistance_control_gain to be negative,"
+          RCLCPP_WARN(this->get_logger(), "You've set distance_control_gain to be negative,"
           " this isn't allowed, so the alpha1 will be set to be zero.");
           followindistance_control_gain_ = 0.0;
         }

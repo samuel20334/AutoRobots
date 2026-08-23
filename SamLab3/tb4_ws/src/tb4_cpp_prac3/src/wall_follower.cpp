@@ -150,12 +150,13 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
     // Returns the number of hops from the begin to the iterator of the smallest element.
     int min_index = std::distance(scan_msg->ranges.begin(), min_distance);
     // Use the index to calculate the angle where the smallest range is measured.
-    float min_angle = (min_index - 320)*2*PI/640.0;
+    float angle_l = scan_msg->angle_min + scan_msg->angle_increment * min_index;
+    float min_angle = angle_l + PI/2;
 
     float heading_error = min_angle - following_angle_;
     geometry_msgs::msg::Twist cmd_vel_msg;
 
-    if(min_value<12) 
+    if(min_value<scan_msg->range_max) 
     {
         /* The robot is moving towards to the closed target at speed of forward_velocity_*/
         if(min_value>(following_distance_+buffer_zone_)){
