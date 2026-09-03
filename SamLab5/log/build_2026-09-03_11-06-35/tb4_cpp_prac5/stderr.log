@@ -1,0 +1,39 @@
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In static member function ‘[01m[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:78:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Kiar_amcl::LikelihoodFieldModel::z_max_[m[K’ in static member function
+   78 |                         pz = pz + [01;31m[Kz_max_[m[K;
+      |                                   [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:4[m[K:
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include/iar_amcl/likelihood_field_model.hpp:16:16:[m[K [01;36m[Knote: [m[Kdeclared here
+   16 |         double [01;36m[Kz_max_[m[K;
+      |                [01;36m[K^~~~~~[m[K
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:87:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::z_rand_[m[K’ in static member function
+   87 |                         pz = pz + [01;31m[Kz_rand_[m[K/data->range_max;
+      |                                   [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include/iar_amcl/likelihood_field_model.hpp:4[m[K:
+[01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:67:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   67 |   double [01;36m[Kz_rand_[m[K;
+      |          [01;36m[K^~~~~~~[m[K
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::z_hit_[m[K’ in static member function
+  102 |                         pz = pz + [01;31m[Kz_hit_[m[K*exp(-(dist*dist)/(2*sigma_hit_*sigma_hit_));
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:66:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   66 |   double [01;36m[Kz_hit_[m[K;
+      |          [01;36m[K^~~~~~[m[K
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:62:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::sigma_hit_[m[K’ in static member function
+  102 |                        pz = pz + z_hit_*exp(-(dist*dist)/(2*[01;31m[Ksigma_hit_[m[K*sigma_hit_));
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:68:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   68 |   double [01;36m[Ksigma_hit_[m[K;
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:73:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::sigma_hit_[m[K’ in static member function
+  102 |             pz = pz + z_hit_*exp(-(dist*dist)/(2*sigma_hit_*[01;31m[Ksigma_hit_[m[K));
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:68:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   68 |   double [01;36m[Ksigma_hit_[m[K;
+      |          [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/iar_amcl.dir/build.make:104: CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_amcl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

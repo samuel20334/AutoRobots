@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5 -- -j6 -l6
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target iar_amcl[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o[0m
+[0.402s] [ 50%] [32m[1mLinking CXX executable iar_amcl[0m
+[1.702s] [100%] Built target iar_amcl
+[1.712s] Invoked command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5 -- -j6 -l6
+[1.720s] Invoking command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5
+[1.726s] -- Install configuration: ""
+[1.727s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/lib/tb4_cpp_prac5/iar_amcl
+[1.735s] -- Set runtime path of "/home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/lib/tb4_cpp_prac5/iar_amcl" to ""
+[1.735s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//launch
+[1.735s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//launch/localisation_launch.py
+[1.735s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//config
+[1.736s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//config/localisation.yaml
+[1.736s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map
+[1.736s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map/office_ICTE4001_sim.yaml
+[1.737s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map/office_ICTE4001_sim.pgm
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac5
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac5
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/ament_prefix_path.sh
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/ament_prefix_path.dsv
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/path.sh
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/path.dsv
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.bash
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.sh
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.zsh
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.dsv
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/package.dsv
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/ament_index/resource_index/packages/tb4_cpp_prac5
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/cmake/tb4_cpp_prac5Config.cmake
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/cmake/tb4_cpp_prac5Config-version.cmake
+[1.744s] -- Installing: /home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/package.xml
+[1.746s] Invoked command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5

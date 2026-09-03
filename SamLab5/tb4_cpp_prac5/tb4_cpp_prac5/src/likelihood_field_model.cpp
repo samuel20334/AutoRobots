@@ -75,7 +75,7 @@ namespace iar_amcl
                         Check whether a failure measurement is detected, i.e., max range is detected. If yes, update the probability
                     */
                     if (obs_range == data->range_max) {
-                        pz = pz + z_max_;
+                        pz = pz + self->z_max_;
                     }
 
 
@@ -84,7 +84,7 @@ namespace iar_amcl
                         Process a beam with range measurement less than the maximum value.
                     */
                     else if (obs_range < data->range_max) {
-                        pz = pz + z_rand_/data->range_max;
+                        pz = pz + self->z_rand_/data->range_max;
                         hit_x = lidar_pose.v[0] + obs_range*cos(lidar_pose.v[2] + obs_bearing);
                         hit_y = lidar_pose.v[1] + obs_range*sin(lidar_pose.v[2] + obs_bearing);
 
@@ -99,7 +99,7 @@ namespace iar_amcl
                             dist = self->map_->max_occ_dist;
                         }
 
-                        pz = pz + z_hit_*exp(-(dist*dist)/(2*sigma_hit_*sigma_hit_));
+                        pz = pz + self->z_hit_*exp(-(dist*dist)/(2*self->sigma_hit_*self->sigma_hit_));
                     }
 
                     

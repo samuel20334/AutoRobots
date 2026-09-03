@@ -1,0 +1,103 @@
+[0.012s] Invoking command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5 -DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5
+[0.094s] -- The C compiler identification is GNU 12.3.0
+[0.152s] -- The CXX compiler identification is GNU 12.3.0
+[0.160s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.335s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.571s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.574s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.618s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.623s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.630s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.710s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.823s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Looking for pthread.h
+[0.941s] -- Looking for pthread.h - found
+[0.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.020s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.021s] -- Found Threads: TRUE  
+[1.078s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.143s] -- Found message_filters: 4.3.19 (/opt/ros/humble/share/message_filters/cmake)
+[1.154s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.206s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.209s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.209s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.474s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.491s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.510s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[1.532s] -- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)
+[1.655s] -- Found nav2_amcl: 1.1.20 (/opt/ros/humble/share/nav2_amcl/cmake)
+[1.709s] -- Looking for drand48
+[1.784s] -- Looking for drand48 - found
+[1.932s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.010s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.010s] -- Configured cppcheck include dirs: /home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include;$<BUILD_INTERFACE:/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include>
+[2.010s] -- Configured cppcheck exclude dirs and/or files: 
+[2.010s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.011s] -- Added test 'lint_cmake' to check CMake code style
+[2.011s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.012s] -- Added test 'uncrustify' to check C / C++ code style
+[2.012s] -- Configured uncrustify additional arguments: 
+[2.013s] -- Added test 'xmllint' to check XML markup files
+[2.014s] -- Configuring done
+[2.101s] -- Generating done
+[2.105s] -- Build files have been written to: /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5
+[2.118s] Invoked command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5 -DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5
+[2.120s] Invoking command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5 -- -j6 -l6
+[2.170s] [ 25%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/main.cpp.o[0m
+[6.971s] [ 75%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o[0m
+[6.971s] [ 75%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o[0m
+[7.236s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In static member function ‘[01m[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[7.237s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:78:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Kiar_amcl::LikelihoodFieldModel::z_max_[m[K’ in static member function
+[7.237s]    78 |                         pz = pz + [01;31m[Kz_max_[m[K;
+[7.237s]       |                                   [01;31m[K^~~~~~[m[K
+[7.237s] In file included from [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:4[m[K:
+[7.237s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include/iar_amcl/likelihood_field_model.hpp:16:16:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.237s]    16 |         double [01;36m[Kz_max_[m[K;
+[7.237s]       |                [01;36m[K^~~~~~[m[K
+[7.237s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:87:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::z_rand_[m[K’ in static member function
+[7.237s]    87 |                         pz = pz + [01;31m[Kz_rand_[m[K/data->range_max;
+[7.237s]       |                                   [01;31m[K^~~~~~~[m[K
+[7.237s] In file included from [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include/iar_amcl/likelihood_field_model.hpp:4[m[K:
+[7.237s] [01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:67:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.237s]    67 |   double [01;36m[Kz_rand_[m[K;
+[7.237s]       |          [01;36m[K^~~~~~~[m[K
+[7.237s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:35:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::z_hit_[m[K’ in static member function
+[7.237s]   102 |                         pz = pz + [01;31m[Kz_hit_[m[K*exp(-(dist*dist)/(2*sigma_hit_*sigma_hit_));
+[7.237s]       |                                   [01;31m[K^~~~~~[m[K
+[7.237s] [01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:66:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.238s]    66 |   double [01;36m[Kz_hit_[m[K;
+[7.238s]       |          [01;36m[K^~~~~~[m[K
+[7.238s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:62:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::sigma_hit_[m[K’ in static member function
+[7.238s]   102 |                        pz = pz + z_hit_*exp(-(dist*dist)/(2*[01;31m[Ksigma_hit_[m[K*sigma_hit_));
+[7.238s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[7.238s] 
+[7.238s] [01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:68:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.238s]    68 |   double [01;36m[Ksigma_hit_[m[K;
+[7.238s]       |          [01;36m[K^~~~~~~~~~[m[K
+[7.238s] [01m[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:73:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[Knav2_amcl::Laser::sigma_hit_[m[K’ in static member function
+[7.238s]   102 |             pz = pz + z_hit_*exp(-(dist*dist)/(2*sigma_hit_*[01;31m[Ksigma_hit_[m[K));
+[7.238s]       |                                                             [01;31m[K^~~~~~~~~~[m[K
+[7.238s] 
+[7.238s] [01m[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:68:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.238s]    68 |   double [01;36m[Ksigma_hit_[m[K;
+[7.238s]       |          [01;36m[K^~~~~~~~~~[m[K
+[7.312s] gmake[2]: *** [CMakeFiles/iar_amcl.dir/build.make:104: CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o] Error 1
+[7.312s] gmake[2]: *** Waiting for unfinished jobs....
+[31.294s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_amcl.dir/all] Error 2
+[31.294s] gmake: *** [Makefile:146: all] Error 2
+[31.297s] Invoked command in '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5 -- -j6 -l6

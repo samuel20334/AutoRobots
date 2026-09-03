@@ -1,0 +1,421 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (tb4_cpp_prac5) JobQueued: {'identifier': 'tb4_cpp_prac5', 'dependencies': OrderedDict()}
+[0.000582] (tb4_cpp_prac5) JobStarted: {'identifier': 'tb4_cpp_prac5'}
+[0.008094] (tb4_cpp_prac5) JobProgress: {'identifier': 'tb4_cpp_prac5', 'progress': 'cmake'}
+[0.008612] (tb4_cpp_prac5) Command: {'cmd': ['/usr/bin/cmake', '/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5', '-DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab5/install/tb4_cpp_prac5'], 'cwd': '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8030'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotai/Downloads/turtlebot_virtual_lab/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-03:@/tmp/.ICE-unix/6884,unix/V-2204-HPLC-03:/tmp/.ICE-unix/6884'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae594118_ead3_4af4_bdd8_eee9f07bc4a0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_simulator:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_bringup:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_toolbox:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_simulator:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_bringup:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_toolbox:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[0.094445] (tb4_cpp_prac5) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099726] (-) TimerEvent: {}
+[0.152132] (tb4_cpp_prac5) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.160618] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199846] (-) TimerEvent: {}
+[0.240875] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.247269] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.247510] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.247818] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.250410] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299962] (-) TimerEvent: {}
+[0.326280] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.335227] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.335397] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.335452] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.335790] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400064] (-) TimerEvent: {}
+[0.472106] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500169] (-) TimerEvent: {}
+[0.571752] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.574044] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600303] (-) TimerEvent: {}
+[0.618770] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.623267] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.630832] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.647723] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.664277] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700402] (-) TimerEvent: {}
+[0.710827] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.713294] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.792294] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.800513] (-) TimerEvent: {}
+[0.823029] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.861770] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.870974] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900631] (-) TimerEvent: {}
+[0.941495] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.941757] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000752] (-) TimerEvent: {}
+[1.020890] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.021910] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.078472] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.100851] (-) TimerEvent: {}
+[1.143643] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found message_filters: 4.3.19 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[1.154984] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.200968] (-) TimerEvent: {}
+[1.206371] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.209378] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.209529] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.301085] (-) TimerEvent: {}
+[1.401401] (-) TimerEvent: {}
+[1.474046] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.491649] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.501480] (-) TimerEvent: {}
+[1.510748] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.532890] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.601615] (-) TimerEvent: {}
+[1.655907] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav2_amcl: 1.1.20 (/opt/ros/humble/share/nav2_amcl/cmake)\n'}
+[1.701717] (-) TimerEvent: {}
+[1.709013] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for drand48\n'}
+[1.784158] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for drand48 - found\n'}
+[1.801812] (-) TimerEvent: {}
+[1.902085] (-) TimerEvent: {}
+[1.932168] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.002204] (-) TimerEvent: {}
+[2.010028] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.010356] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include;$<BUILD_INTERFACE:/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include>\n'}
+[2.010423] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.010937] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.011489] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.011932] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.012882] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.012947] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.013372] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.014662] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.101278] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Generating done\n'}
+[2.102278] (-) TimerEvent: {}
+[2.105495] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Build files have been written to: /home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5\n'}
+[2.118543] (tb4_cpp_prac5) CommandEnded: {'returncode': 0}
+[2.119217] (tb4_cpp_prac5) JobProgress: {'identifier': 'tb4_cpp_prac5', 'progress': 'build'}
+[2.120059] (tb4_cpp_prac5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5', '--', '-j6', '-l6'], 'cwd': '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '8030'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotai/Downloads/turtlebot_virtual_lab/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-03:@/tmp/.ICE-unix/6884,unix/V-2204-HPLC-03:/tmp/.ICE-unix/6884'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae594118_ead3_4af4_bdd8_eee9f07bc4a0'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_simulator:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_bringup:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_toolbox:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab5/build/tb4_cpp_prac5'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_simulator:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_bringup:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_toolbox:/home/robotai/Downloads/turtlebot_virtual_lab/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[2.170702] (tb4_cpp_prac5) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/main.cpp.o\x1b[0m\n'}
+[2.202412] (-) TimerEvent: {}
+[2.302735] (-) TimerEvent: {}
+[2.403033] (-) TimerEvent: {}
+[2.503335] (-) TimerEvent: {}
+[2.603650] (-) TimerEvent: {}
+[2.703966] (-) TimerEvent: {}
+[2.804328] (-) TimerEvent: {}
+[2.904702] (-) TimerEvent: {}
+[3.005017] (-) TimerEvent: {}
+[3.105328] (-) TimerEvent: {}
+[3.205642] (-) TimerEvent: {}
+[3.305951] (-) TimerEvent: {}
+[3.406345] (-) TimerEvent: {}
+[3.506736] (-) TimerEvent: {}
+[3.607068] (-) TimerEvent: {}
+[3.707417] (-) TimerEvent: {}
+[3.807740] (-) TimerEvent: {}
+[3.908062] (-) TimerEvent: {}
+[4.008370] (-) TimerEvent: {}
+[4.108735] (-) TimerEvent: {}
+[4.209287] (-) TimerEvent: {}
+[4.309692] (-) TimerEvent: {}
+[4.410132] (-) TimerEvent: {}
+[4.510606] (-) TimerEvent: {}
+[4.611071] (-) TimerEvent: {}
+[4.711533] (-) TimerEvent: {}
+[4.812037] (-) TimerEvent: {}
+[4.912504] (-) TimerEvent: {}
+[5.012907] (-) TimerEvent: {}
+[5.113366] (-) TimerEvent: {}
+[5.213822] (-) TimerEvent: {}
+[5.314378] (-) TimerEvent: {}
+[5.414791] (-) TimerEvent: {}
+[5.515209] (-) TimerEvent: {}
+[5.615666] (-) TimerEvent: {}
+[5.716114] (-) TimerEvent: {}
+[5.816610] (-) TimerEvent: {}
+[5.917044] (-) TimerEvent: {}
+[6.017515] (-) TimerEvent: {}
+[6.117934] (-) TimerEvent: {}
+[6.218373] (-) TimerEvent: {}
+[6.318899] (-) TimerEvent: {}
+[6.419382] (-) TimerEvent: {}
+[6.519806] (-) TimerEvent: {}
+[6.620231] (-) TimerEvent: {}
+[6.720707] (-) TimerEvent: {}
+[6.821185] (-) TimerEvent: {}
+[6.921677] (-) TimerEvent: {}
+[6.971413] (tb4_cpp_prac5) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o\x1b[0m\n'}
+[6.971668] (tb4_cpp_prac5) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o\x1b[0m\n'}
+[7.021811] (-) TimerEvent: {}
+[7.122229] (-) TimerEvent: {}
+[7.222684] (-) TimerEvent: {}
+[7.236802] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.237113] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:78:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member \xe2\x80\x98\x1b[01m\x1b[Kiar_amcl::LikelihoodFieldModel::z_max_\x1b[m\x1b[K\xe2\x80\x99 in static member function\n'}
+[7.237313] (tb4_cpp_prac5) StderrLine: {'line': b'   78 |                         pz = pz + \x1b[01;31m\x1b[Kz_max_\x1b[m\x1b[K;\n'}
+[7.237367] (tb4_cpp_prac5) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.237417] (tb4_cpp_prac5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:4\x1b[m\x1b[K:\n'}
+[7.237479] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include/iar_amcl/likelihood_field_model.hpp:16:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.237534] (tb4_cpp_prac5) StderrLine: {'line': b'   16 |         double \x1b[01;36m\x1b[Kz_max_\x1b[m\x1b[K;\n'}
+[7.237578] (tb4_cpp_prac5) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.237620] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:87:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member \xe2\x80\x98\x1b[01m\x1b[Knav2_amcl::Laser::z_rand_\x1b[m\x1b[K\xe2\x80\x99 in static member function\n'}
+[7.237666] (tb4_cpp_prac5) StderrLine: {'line': b'   87 |                         pz = pz + \x1b[01;31m\x1b[Kz_rand_\x1b[m\x1b[K/data->range_max;\n'}
+[7.237711] (tb4_cpp_prac5) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.237753] (tb4_cpp_prac5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/include/iar_amcl/likelihood_field_model.hpp:4\x1b[m\x1b[K:\n'}
+[7.237798] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:67:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.237840] (tb4_cpp_prac5) StderrLine: {'line': b'   67 |   double \x1b[01;36m\x1b[Kz_rand_\x1b[m\x1b[K;\n'}
+[7.237881] (tb4_cpp_prac5) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.237922] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member \xe2\x80\x98\x1b[01m\x1b[Knav2_amcl::Laser::z_hit_\x1b[m\x1b[K\xe2\x80\x99 in static member function\n'}
+[7.237965] (tb4_cpp_prac5) StderrLine: {'line': b'  102 |                         pz = pz + \x1b[01;31m\x1b[Kz_hit_\x1b[m\x1b[K*exp(-(dist*dist)/(2*sigma_hit_*sigma_hit_));\n'}
+[7.238007] (tb4_cpp_prac5) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.238048] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:66:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.238089] (tb4_cpp_prac5) StderrLine: {'line': b'   66 |   double \x1b[01;36m\x1b[Kz_hit_\x1b[m\x1b[K;\n'}
+[7.238130] (tb4_cpp_prac5) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.238171] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member \xe2\x80\x98\x1b[01m\x1b[Knav2_amcl::Laser::sigma_hit_\x1b[m\x1b[K\xe2\x80\x99 in static member function\n'}
+[7.238212] (tb4_cpp_prac5) StderrLine: {'line': b'  102 |                        pz = pz + z_hit_*exp(-(dist*dist)/(2*\x1b[01;31m\x1b[Ksigma_hit_\x1b[m\x1b[K*sigma_hit_));\n'}
+[7.238263] (tb4_cpp_prac5) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.238308] (tb4_cpp_prac5) StderrLine: {'line': b'\n'}
+[7.238352] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:68:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.238393] (tb4_cpp_prac5) StderrLine: {'line': b'   68 |   double \x1b[01;36m\x1b[Ksigma_hit_\x1b[m\x1b[K;\n'}
+[7.238432] (tb4_cpp_prac5) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.238470] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:102:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member \xe2\x80\x98\x1b[01m\x1b[Knav2_amcl::Laser::sigma_hit_\x1b[m\x1b[K\xe2\x80\x99 in static member function\n'}
+[7.238515] (tb4_cpp_prac5) StderrLine: {'line': b'  102 |             pz = pz + z_hit_*exp(-(dist*dist)/(2*sigma_hit_*\x1b[01;31m\x1b[Ksigma_hit_\x1b[m\x1b[K));\n'}
+[7.238555] (tb4_cpp_prac5) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.238595] (tb4_cpp_prac5) StderrLine: {'line': b'\n'}
+[7.238635] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav2_amcl/sensors/laser/laser.hpp:68:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.238675] (tb4_cpp_prac5) StderrLine: {'line': b'   68 |   double \x1b[01;36m\x1b[Ksigma_hit_\x1b[m\x1b[K;\n'}
+[7.238715] (tb4_cpp_prac5) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.311939] (tb4_cpp_prac5) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/iar_amcl.dir/build.make:104: CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o] Error 1\n'}
+[7.312239] (tb4_cpp_prac5) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.322816] (-) TimerEvent: {}
+[7.423200] (-) TimerEvent: {}
+[7.523688] (-) TimerEvent: {}
+[7.624165] (-) TimerEvent: {}
+[7.724638] (-) TimerEvent: {}
+[7.825101] (-) TimerEvent: {}
+[7.925660] (-) TimerEvent: {}
+[8.026094] (-) TimerEvent: {}
+[8.126568] (-) TimerEvent: {}
+[8.227042] (-) TimerEvent: {}
+[8.327768] (-) TimerEvent: {}
+[8.428220] (-) TimerEvent: {}
+[8.528689] (-) TimerEvent: {}
+[8.629145] (-) TimerEvent: {}
+[8.729616] (-) TimerEvent: {}
+[8.830054] (-) TimerEvent: {}
+[8.930516] (-) TimerEvent: {}
+[9.031018] (-) TimerEvent: {}
+[9.131512] (-) TimerEvent: {}
+[9.232005] (-) TimerEvent: {}
+[9.332458] (-) TimerEvent: {}
+[9.432881] (-) TimerEvent: {}
+[9.533349] (-) TimerEvent: {}
+[9.633777] (-) TimerEvent: {}
+[9.734214] (-) TimerEvent: {}
+[9.834704] (-) TimerEvent: {}
+[9.935143] (-) TimerEvent: {}
+[10.035622] (-) TimerEvent: {}
+[10.136128] (-) TimerEvent: {}
+[10.236620] (-) TimerEvent: {}
+[10.337078] (-) TimerEvent: {}
+[10.437557] (-) TimerEvent: {}
+[10.538062] (-) TimerEvent: {}
+[10.638544] (-) TimerEvent: {}
+[10.739025] (-) TimerEvent: {}
+[10.839491] (-) TimerEvent: {}
+[10.939933] (-) TimerEvent: {}
+[11.040390] (-) TimerEvent: {}
+[11.140830] (-) TimerEvent: {}
+[11.241389] (-) TimerEvent: {}
+[11.341876] (-) TimerEvent: {}
+[11.442395] (-) TimerEvent: {}
+[11.542911] (-) TimerEvent: {}
+[11.643375] (-) TimerEvent: {}
+[11.743833] (-) TimerEvent: {}
+[11.844378] (-) TimerEvent: {}
+[11.944908] (-) TimerEvent: {}
+[12.045383] (-) TimerEvent: {}
+[12.145801] (-) TimerEvent: {}
+[12.246231] (-) TimerEvent: {}
+[12.346760] (-) TimerEvent: {}
+[12.447418] (-) TimerEvent: {}
+[12.547928] (-) TimerEvent: {}
+[12.648412] (-) TimerEvent: {}
+[12.748868] (-) TimerEvent: {}
+[12.849367] (-) TimerEvent: {}
+[12.949812] (-) TimerEvent: {}
+[13.050315] (-) TimerEvent: {}
+[13.150780] (-) TimerEvent: {}
+[13.251351] (-) TimerEvent: {}
+[13.351868] (-) TimerEvent: {}
+[13.452315] (-) TimerEvent: {}
+[13.552750] (-) TimerEvent: {}
+[13.653180] (-) TimerEvent: {}
+[13.753676] (-) TimerEvent: {}
+[13.854096] (-) TimerEvent: {}
+[13.954576] (-) TimerEvent: {}
+[14.054992] (-) TimerEvent: {}
+[14.155420] (-) TimerEvent: {}
+[14.255889] (-) TimerEvent: {}
+[14.356357] (-) TimerEvent: {}
+[14.456851] (-) TimerEvent: {}
+[14.557514] (-) TimerEvent: {}
+[14.657978] (-) TimerEvent: {}
+[14.758565] (-) TimerEvent: {}
+[14.859014] (-) TimerEvent: {}
+[14.959536] (-) TimerEvent: {}
+[15.059947] (-) TimerEvent: {}
+[15.160367] (-) TimerEvent: {}
+[15.260820] (-) TimerEvent: {}
+[15.361313] (-) TimerEvent: {}
+[15.461764] (-) TimerEvent: {}
+[15.562181] (-) TimerEvent: {}
+[15.662640] (-) TimerEvent: {}
+[15.763140] (-) TimerEvent: {}
+[15.863700] (-) TimerEvent: {}
+[15.964118] (-) TimerEvent: {}
+[16.064572] (-) TimerEvent: {}
+[16.165079] (-) TimerEvent: {}
+[16.265556] (-) TimerEvent: {}
+[16.365974] (-) TimerEvent: {}
+[16.466407] (-) TimerEvent: {}
+[16.566905] (-) TimerEvent: {}
+[16.667381] (-) TimerEvent: {}
+[16.767844] (-) TimerEvent: {}
+[16.868343] (-) TimerEvent: {}
+[16.968782] (-) TimerEvent: {}
+[17.069222] (-) TimerEvent: {}
+[17.169712] (-) TimerEvent: {}
+[17.270212] (-) TimerEvent: {}
+[17.370710] (-) TimerEvent: {}
+[17.471306] (-) TimerEvent: {}
+[17.571727] (-) TimerEvent: {}
+[17.672176] (-) TimerEvent: {}
+[17.772613] (-) TimerEvent: {}
+[17.873029] (-) TimerEvent: {}
+[17.973505] (-) TimerEvent: {}
+[18.073995] (-) TimerEvent: {}
+[18.174455] (-) TimerEvent: {}
+[18.275236] (-) TimerEvent: {}
+[18.375701] (-) TimerEvent: {}
+[18.476131] (-) TimerEvent: {}
+[18.576650] (-) TimerEvent: {}
+[18.677075] (-) TimerEvent: {}
+[18.777545] (-) TimerEvent: {}
+[18.878013] (-) TimerEvent: {}
+[18.978497] (-) TimerEvent: {}
+[19.079030] (-) TimerEvent: {}
+[19.179494] (-) TimerEvent: {}
+[19.279970] (-) TimerEvent: {}
+[19.380363] (-) TimerEvent: {}
+[19.480789] (-) TimerEvent: {}
+[19.581301] (-) TimerEvent: {}
+[19.681736] (-) TimerEvent: {}
+[19.782209] (-) TimerEvent: {}
+[19.882682] (-) TimerEvent: {}
+[19.983174] (-) TimerEvent: {}
+[20.083645] (-) TimerEvent: {}
+[20.184084] (-) TimerEvent: {}
+[20.284539] (-) TimerEvent: {}
+[20.384980] (-) TimerEvent: {}
+[20.485589] (-) TimerEvent: {}
+[20.586062] (-) TimerEvent: {}
+[20.686530] (-) TimerEvent: {}
+[20.787002] (-) TimerEvent: {}
+[20.887538] (-) TimerEvent: {}
+[20.987975] (-) TimerEvent: {}
+[21.088419] (-) TimerEvent: {}
+[21.188866] (-) TimerEvent: {}
+[21.289308] (-) TimerEvent: {}
+[21.389727] (-) TimerEvent: {}
+[21.490317] (-) TimerEvent: {}
+[21.590840] (-) TimerEvent: {}
+[21.691394] (-) TimerEvent: {}
+[21.791868] (-) TimerEvent: {}
+[21.892369] (-) TimerEvent: {}
+[21.992791] (-) TimerEvent: {}
+[22.093289] (-) TimerEvent: {}
+[22.193701] (-) TimerEvent: {}
+[22.294111] (-) TimerEvent: {}
+[22.394661] (-) TimerEvent: {}
+[22.495124] (-) TimerEvent: {}
+[22.595615] (-) TimerEvent: {}
+[22.696041] (-) TimerEvent: {}
+[22.796504] (-) TimerEvent: {}
+[22.896941] (-) TimerEvent: {}
+[22.997394] (-) TimerEvent: {}
+[23.097793] (-) TimerEvent: {}
+[23.198210] (-) TimerEvent: {}
+[23.298692] (-) TimerEvent: {}
+[23.399158] (-) TimerEvent: {}
+[23.499719] (-) TimerEvent: {}
+[23.600126] (-) TimerEvent: {}
+[23.700606] (-) TimerEvent: {}
+[23.801009] (-) TimerEvent: {}
+[23.901504] (-) TimerEvent: {}
+[24.001920] (-) TimerEvent: {}
+[24.102351] (-) TimerEvent: {}
+[24.202856] (-) TimerEvent: {}
+[24.303294] (-) TimerEvent: {}
+[24.403748] (-) TimerEvent: {}
+[24.504181] (-) TimerEvent: {}
+[24.604728] (-) TimerEvent: {}
+[24.705150] (-) TimerEvent: {}
+[24.805638] (-) TimerEvent: {}
+[24.906057] (-) TimerEvent: {}
+[25.006502] (-) TimerEvent: {}
+[25.106924] (-) TimerEvent: {}
+[25.207356] (-) TimerEvent: {}
+[25.307771] (-) TimerEvent: {}
+[25.408176] (-) TimerEvent: {}
+[25.508632] (-) TimerEvent: {}
+[25.609055] (-) TimerEvent: {}
+[25.709586] (-) TimerEvent: {}
+[25.810048] (-) TimerEvent: {}
+[25.910554] (-) TimerEvent: {}
+[26.010958] (-) TimerEvent: {}
+[26.111521] (-) TimerEvent: {}
+[26.211941] (-) TimerEvent: {}
+[26.312360] (-) TimerEvent: {}
+[26.412810] (-) TimerEvent: {}
+[26.513476] (-) TimerEvent: {}
+[26.613914] (-) TimerEvent: {}
+[26.714346] (-) TimerEvent: {}
+[26.814760] (-) TimerEvent: {}
+[26.915177] (-) TimerEvent: {}
+[27.015625] (-) TimerEvent: {}
+[27.116025] (-) TimerEvent: {}
+[27.216503] (-) TimerEvent: {}
+[27.316911] (-) TimerEvent: {}
+[27.417343] (-) TimerEvent: {}
+[27.517768] (-) TimerEvent: {}
+[27.618212] (-) TimerEvent: {}
+[27.718660] (-) TimerEvent: {}
+[27.819116] (-) TimerEvent: {}
+[27.919580] (-) TimerEvent: {}
+[28.020081] (-) TimerEvent: {}
+[28.120496] (-) TimerEvent: {}
+[28.222497] (-) TimerEvent: {}
+[28.322807] (-) TimerEvent: {}
+[28.423129] (-) TimerEvent: {}
+[28.523456] (-) TimerEvent: {}
+[28.623764] (-) TimerEvent: {}
+[28.724071] (-) TimerEvent: {}
+[28.824407] (-) TimerEvent: {}
+[28.924721] (-) TimerEvent: {}
+[29.025048] (-) TimerEvent: {}
+[29.125362] (-) TimerEvent: {}
+[29.225683] (-) TimerEvent: {}
+[29.326004] (-) TimerEvent: {}
+[29.426331] (-) TimerEvent: {}
+[29.526649] (-) TimerEvent: {}
+[29.626988] (-) TimerEvent: {}
+[29.727320] (-) TimerEvent: {}
+[29.827764] (-) TimerEvent: {}
+[29.928069] (-) TimerEvent: {}
+[30.028395] (-) TimerEvent: {}
+[30.128717] (-) TimerEvent: {}
+[30.229039] (-) TimerEvent: {}
+[30.329370] (-) TimerEvent: {}
+[30.429702] (-) TimerEvent: {}
+[30.530096] (-) TimerEvent: {}
+[30.630428] (-) TimerEvent: {}
+[30.730749] (-) TimerEvent: {}
+[30.831077] (-) TimerEvent: {}
+[30.931427] (-) TimerEvent: {}
+[31.031735] (-) TimerEvent: {}
+[31.132058] (-) TimerEvent: {}
+[31.232420] (-) TimerEvent: {}
+[31.294643] (tb4_cpp_prac5) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_amcl.dir/all] Error 2\n'}
+[31.294977] (tb4_cpp_prac5) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[31.297187] (tb4_cpp_prac5) CommandEnded: {'returncode': 2}
+[31.306068] (tb4_cpp_prac5) JobEnded: {'identifier': 'tb4_cpp_prac5', 'rc': 2}
+[31.316468] (-) EventReactorShutdown: {}
