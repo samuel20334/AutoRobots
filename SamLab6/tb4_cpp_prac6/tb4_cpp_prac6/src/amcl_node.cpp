@@ -1635,7 +1635,7 @@ AmclNode::pf_resample(pf_t * pf){
       double c = sqrt(b) * pf->pop_z;
       double d = a - b + c;
       
-      M = max(min_particles_, (int)(((k-1)/(2.0*pf->pop_err))*d*d*d));
+      M = std::max(min_particles_, (int)(((k-1)/(2.0*pf->pop_err))*d*d*d));
     }
 
     /* TODO TASK - MILESTONE # 7
