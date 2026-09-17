@@ -1,0 +1,11 @@
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:[m[K In member function ‘[01m[Kbool iar_astar_planner::NavFn::propAstar(int)[m[K’:
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:235:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpb[m[K’ was not declared in this scope
+  235 |             [01;31m[Kpb[m[K = curPotentArr_;
+      |             [01;31m[K^~[m[K
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:236:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  236 |             [01;31m[Ki[m[K = n_curPotentArr_;
+      |             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/iar_astar_planner.dir/build.make:90: CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_astar_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

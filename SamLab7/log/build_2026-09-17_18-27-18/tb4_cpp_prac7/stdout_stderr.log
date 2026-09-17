@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target iar_astar_planner[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o[0m
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:[m[K In member function ‘[01m[Kbool iar_astar_planner::NavFn::propAstar(int)[m[K’:
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:235:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  235 |             int pb = [01;31m[KcurPotentArr_[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kint*[m[K
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:239:28:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+  239 |                 updateCell([01;31m[K*pb++[m[K);
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:249:19:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  249 |             pb =  [01;31m[KcurPotentArr_[m[K;
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                   [01;31m[K|[m[K
+      |                   [01;31m[Kint*[m[K
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:251:30:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  251 |             nextPotentArr_ = [01;31m[Kpb[m[K;
+      |                              [01;31m[K^~[m[K
+      |                              [01;31m[K|[m[K
+      |                              [01;31m[Kint[m[K
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:260:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  260 |                 pb = [01;31m[KcurPotentArr_[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kint*[m[K
+[01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:263:38:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  263 |                 overflowPotentArr_ = [01;31m[Kpb[m[K;
+      |                                      [01;31m[K^~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kint[m[K
+gmake[2]: *** [CMakeFiles/iar_astar_planner.dir/build.make:90: CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_astar_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

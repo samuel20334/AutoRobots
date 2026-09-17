@@ -232,8 +232,8 @@ namespace iar_astar_planner
                 pending_[curPotentArr_[i]] = false;
             }
 
-            pb = curPotentArr_;
-            i = n_curPotentArr_;
+            int *pb = curPotentArr_;
+            int i = n_curPotentArr_;
             while(i-- >0)
             {
                 updateCell(*pb++);

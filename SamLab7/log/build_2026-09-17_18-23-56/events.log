@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000321] (tb4_cpp_prac7) JobQueued: {'identifier': 'tb4_cpp_prac7', 'dependencies': OrderedDict()}
+[0.000809] (tb4_cpp_prac7) JobStarted: {'identifier': 'tb4_cpp_prac7'}
+[0.045283] (tb4_cpp_prac7) JobProgress: {'identifier': 'tb4_cpp_prac7', 'progress': 'cmake'}
+[0.045856] (tb4_cpp_prac7) Command: {'cmd': ['/usr/bin/cmake', '/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7', '-DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7'], 'cwd': '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13937'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-14:@/tmp/.ICE-unix/13908,unix/V-2204-HPLC-14:/tmp/.ICE-unix/13908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd081d00_690d_4fbb_ba72_7258f9d8b5ef'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099762] (-) TimerEvent: {}
+[0.200110] (-) TimerEvent: {}
+[0.300437] (-) TimerEvent: {}
+[0.400797] (-) TimerEvent: {}
+[0.501185] (-) TimerEvent: {}
+[0.601604] (-) TimerEvent: {}
+[0.702091] (-) TimerEvent: {}
+[0.802556] (-) TimerEvent: {}
+[0.903032] (-) TimerEvent: {}
+[1.003483] (-) TimerEvent: {}
+[1.103921] (-) TimerEvent: {}
+[1.204343] (-) TimerEvent: {}
+[1.299423] (tb4_cpp_prac7) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[1.304450] (-) TimerEvent: {}
+[1.404828] (-) TimerEvent: {}
+[1.505271] (-) TimerEvent: {}
+[1.605745] (-) TimerEvent: {}
+[1.706181] (-) TimerEvent: {}
+[1.806610] (-) TimerEvent: {}
+[1.907097] (-) TimerEvent: {}
+[2.007525] (-) TimerEvent: {}
+[2.107964] (-) TimerEvent: {}
+[2.114755] (tb4_cpp_prac7) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[2.208102] (-) TimerEvent: {}
+[2.308497] (-) TimerEvent: {}
+[2.388444] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.408655] (-) TimerEvent: {}
+[2.509234] (-) TimerEvent: {}
+[2.557413] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.564566] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.591669] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.593531] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.609387] (-) TimerEvent: {}
+[2.676043] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.709528] (-) TimerEvent: {}
+[2.784101] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.791597] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.791936] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.792239] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.797458] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.809649] (-) TimerEvent: {}
+[2.910021] (-) TimerEvent: {}
+[3.010435] (-) TimerEvent: {}
+[3.111040] (-) TimerEvent: {}
+[3.211442] (-) TimerEvent: {}
+[3.311794] (-) TimerEvent: {}
+[3.412183] (-) TimerEvent: {}
+[3.415421] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.512355] (-) TimerEvent: {}
+[3.612801] (-) TimerEvent: {}
+[3.713202] (-) TimerEvent: {}
+[3.813658] (-) TimerEvent: {}
+[3.914152] (-) TimerEvent: {}
+[3.935870] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.975557] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.014336] (-) TimerEvent: {}
+[4.114797] (-) TimerEvent: {}
+[4.215226] (-) TimerEvent: {}
+[4.315644] (-) TimerEvent: {}
+[4.416090] (-) TimerEvent: {}
+[4.516520] (-) TimerEvent: {}
+[4.616970] (-) TimerEvent: {}
+[4.717389] (-) TimerEvent: {}
+[4.817801] (-) TimerEvent: {}
+[4.918226] (-) TimerEvent: {}
+[4.990386] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.007488] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.018361] (-) TimerEvent: {}
+[5.118776] (-) TimerEvent: {}
+[5.143834] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.218929] (-) TimerEvent: {}
+[5.319375] (-) TimerEvent: {}
+[5.360448] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.419523] (-) TimerEvent: {}
+[5.519919] (-) TimerEvent: {}
+[5.527530] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.620077] (-) TimerEvent: {}
+[5.720521] (-) TimerEvent: {}
+[5.789820] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.820661] (-) TimerEvent: {}
+[5.839498] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.920841] (-) TimerEvent: {}
+[6.003905] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.020976] (-) TimerEvent: {}
+[6.037507] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.084218] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.111675] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.121456] (-) TimerEvent: {}
+[6.222543] (-) TimerEvent: {}
+[6.322988] (-) TimerEvent: {}
+[6.336024] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.336681] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.420470] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.421580] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.423044] (-) TimerEvent: {}
+[6.523355] (-) TimerEvent: {}
+[6.623797] (-) TimerEvent: {}
+[6.724201] (-) TimerEvent: {}
+[6.824595] (-) TimerEvent: {}
+[6.925026] (-) TimerEvent: {}
+[7.025474] (-) TimerEvent: {}
+[7.125908] (-) TimerEvent: {}
+[7.226356] (-) TimerEvent: {}
+[7.243022] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[7.326533] (-) TimerEvent: {}
+[7.426976] (-) TimerEvent: {}
+[7.490538] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[7.527133] (-) TimerEvent: {}
+[7.627522] (-) TimerEvent: {}
+[7.647441] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[7.650646] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[7.727659] (-) TimerEvent: {}
+[7.758142] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[7.827816] (-) TimerEvent: {}
+[7.928204] (-) TimerEvent: {}
+[8.028608] (-) TimerEvent: {}
+[8.129115] (-) TimerEvent: {}
+[8.229492] (-) TimerEvent: {}
+[8.329915] (-) TimerEvent: {}
+[8.430324] (-) TimerEvent: {}
+[8.496358] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.498542] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.498739] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.530468] (-) TimerEvent: {}
+[8.586197] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[8.630606] (-) TimerEvent: {}
+[8.731221] (-) TimerEvent: {}
+[8.831746] (-) TimerEvent: {}
+[8.932142] (-) TimerEvent: {}
+[9.032547] (-) TimerEvent: {}
+[9.132990] (-) TimerEvent: {}
+[9.233399] (-) TimerEvent: {}
+[9.302992] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.333540] (-) TimerEvent: {}
+[9.433960] (-) TimerEvent: {}
+[9.534378] (-) TimerEvent: {}
+[9.557313] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.557619] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/include>\n'}
+[9.557763] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.558979] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.560230] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.561245] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.562565] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.562632] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.563412] (tb4_cpp_prac7) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.583805] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.634519] (-) TimerEvent: {}
+[9.734939] (-) TimerEvent: {}
+[9.835349] (-) TimerEvent: {}
+[9.935787] (-) TimerEvent: {}
+[10.036207] (-) TimerEvent: {}
+[10.136624] (-) TimerEvent: {}
+[10.237068] (-) TimerEvent: {}
+[10.337464] (-) TimerEvent: {}
+[10.437991] (-) TimerEvent: {}
+[10.538422] (-) TimerEvent: {}
+[10.638820] (-) TimerEvent: {}
+[10.739230] (-) TimerEvent: {}
+[10.839641] (-) TimerEvent: {}
+[10.940082] (-) TimerEvent: {}
+[11.040498] (-) TimerEvent: {}
+[11.140960] (-) TimerEvent: {}
+[11.241369] (-) TimerEvent: {}
+[11.341809] (-) TimerEvent: {}
+[11.442307] (-) TimerEvent: {}
+[11.542763] (-) TimerEvent: {}
+[11.643181] (-) TimerEvent: {}
+[11.709649] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Generating done\n'}
+[11.715916] (tb4_cpp_prac7) StdoutLine: {'line': b'-- Build files have been written to: /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7\n'}
+[11.733986] (tb4_cpp_prac7) CommandEnded: {'returncode': 0}
+[11.735546] (tb4_cpp_prac7) JobProgress: {'identifier': 'tb4_cpp_prac7', 'progress': 'build'}
+[11.735581] (tb4_cpp_prac7) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7', '--', '-j6', '-l6'], 'cwd': '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13937'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-14:@/tmp/.ICE-unix/13908,unix/V-2204-HPLC-14:/tmp/.ICE-unix/13908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd081d00_690d_4fbb_ba72_7258f9d8b5ef'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.743272] (-) TimerEvent: {}
+[11.795385] (tb4_cpp_prac7) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o\x1b[0m\n'}
+[11.795631] (tb4_cpp_prac7) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o\x1b[0m\n'}
+[11.843431] (-) TimerEvent: {}
+[11.943822] (-) TimerEvent: {}
+[12.044310] (-) TimerEvent: {}
+[12.144778] (-) TimerEvent: {}
+[12.245157] (-) TimerEvent: {}
+[12.345561] (-) TimerEvent: {}
+[12.446076] (-) TimerEvent: {}
+[12.546499] (-) TimerEvent: {}
+[12.646989] (-) TimerEvent: {}
+[12.747414] (-) TimerEvent: {}
+[12.847856] (-) TimerEvent: {}
+[12.948265] (-) TimerEvent: {}
+[13.048656] (-) TimerEvent: {}
+[13.149168] (-) TimerEvent: {}
+[13.249573] (-) TimerEvent: {}
+[13.350001] (-) TimerEvent: {}
+[13.450415] (-) TimerEvent: {}
+[13.550826] (-) TimerEvent: {}
+[13.651296] (-) TimerEvent: {}
+[13.751821] (-) TimerEvent: {}
+[13.852277] (-) TimerEvent: {}
+[13.952730] (-) TimerEvent: {}
+[14.053187] (-) TimerEvent: {}
+[14.153614] (-) TimerEvent: {}
+[14.254081] (-) TimerEvent: {}
+[14.354499] (-) TimerEvent: {}
+[14.454940] (-) TimerEvent: {}
+[14.555346] (-) TimerEvent: {}
+[14.655783] (-) TimerEvent: {}
+[14.756180] (-) TimerEvent: {}
+[14.856597] (-) TimerEvent: {}
+[14.957016] (-) TimerEvent: {}
+[15.057556] (-) TimerEvent: {}
+[15.158023] (-) TimerEvent: {}
+[15.258473] (-) TimerEvent: {}
+[15.358944] (-) TimerEvent: {}
+[15.459385] (-) TimerEvent: {}
+[15.559803] (-) TimerEvent: {}
+[15.660255] (-) TimerEvent: {}
+[15.760698] (-) TimerEvent: {}
+[15.861188] (-) TimerEvent: {}
+[15.961665] (-) TimerEvent: {}
+[16.062122] (-) TimerEvent: {}
+[16.162532] (-) TimerEvent: {}
+[16.262985] (-) TimerEvent: {}
+[16.363395] (-) TimerEvent: {}
+[16.463806] (-) TimerEvent: {}
+[16.564205] (-) TimerEvent: {}
+[16.664737] (-) TimerEvent: {}
+[16.765162] (-) TimerEvent: {}
+[16.865747] (-) TimerEvent: {}
+[16.966221] (-) TimerEvent: {}
+[17.066661] (-) TimerEvent: {}
+[17.167124] (-) TimerEvent: {}
+[17.267633] (-) TimerEvent: {}
+[17.368090] (-) TimerEvent: {}
+[17.468490] (-) TimerEvent: {}
+[17.568955] (-) TimerEvent: {}
+[17.669422] (-) TimerEvent: {}
+[17.769977] (-) TimerEvent: {}
+[17.870534] (-) TimerEvent: {}
+[17.971096] (-) TimerEvent: {}
+[18.071520] (-) TimerEvent: {}
+[18.172065] (-) TimerEvent: {}
+[18.272586] (-) TimerEvent: {}
+[18.373074] (-) TimerEvent: {}
+[18.473548] (-) TimerEvent: {}
+[18.574027] (-) TimerEvent: {}
+[18.607367] (tb4_cpp_prac7) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool iar_astar_planner::NavFn::propAstar(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.607830] (tb4_cpp_prac7) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:235:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[18.607911] (tb4_cpp_prac7) StderrLine: {'line': b'  235 |             \x1b[01;31m\x1b[Kpb\x1b[m\x1b[K = curPotentArr_;\n'}
+[18.607959] (tb4_cpp_prac7) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.613355] (tb4_cpp_prac7) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:236:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[18.613559] (tb4_cpp_prac7) StderrLine: {'line': b'  236 |             \x1b[01;31m\x1b[Ki\x1b[m\x1b[K = n_curPotentArr_;\n'}
+[18.613615] (tb4_cpp_prac7) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.674170] (-) TimerEvent: {}
+[18.774685] (-) TimerEvent: {}
+[18.875231] (-) TimerEvent: {}
+[18.975646] (-) TimerEvent: {}
+[19.076104] (-) TimerEvent: {}
+[19.175794] (tb4_cpp_prac7) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/iar_astar_planner.dir/build.make:90: CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o] Error 1\n'}
+[19.176021] (tb4_cpp_prac7) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[19.176159] (-) TimerEvent: {}
+[19.276458] (-) TimerEvent: {}
+[19.376942] (-) TimerEvent: {}
+[19.477413] (-) TimerEvent: {}
+[19.577845] (-) TimerEvent: {}
+[19.678273] (-) TimerEvent: {}
+[19.778743] (-) TimerEvent: {}
+[19.879303] (-) TimerEvent: {}
+[19.979758] (-) TimerEvent: {}
+[20.080234] (-) TimerEvent: {}
+[20.180821] (-) TimerEvent: {}
+[20.281353] (-) TimerEvent: {}
+[20.381857] (-) TimerEvent: {}
+[20.482285] (-) TimerEvent: {}
+[20.582790] (-) TimerEvent: {}
+[20.683211] (-) TimerEvent: {}
+[20.783754] (-) TimerEvent: {}
+[20.884262] (-) TimerEvent: {}
+[20.984857] (-) TimerEvent: {}
+[21.085294] (-) TimerEvent: {}
+[21.185819] (-) TimerEvent: {}
+[21.286233] (-) TimerEvent: {}
+[21.386665] (-) TimerEvent: {}
+[21.487134] (-) TimerEvent: {}
+[21.587550] (-) TimerEvent: {}
+[21.688020] (-) TimerEvent: {}
+[21.788497] (-) TimerEvent: {}
+[21.888942] (-) TimerEvent: {}
+[21.989467] (-) TimerEvent: {}
+[22.089997] (-) TimerEvent: {}
+[22.190425] (-) TimerEvent: {}
+[22.290800] (-) TimerEvent: {}
+[22.391210] (-) TimerEvent: {}
+[22.491672] (-) TimerEvent: {}
+[22.592486] (-) TimerEvent: {}
+[22.692956] (-) TimerEvent: {}
+[22.793447] (-) TimerEvent: {}
+[22.893919] (-) TimerEvent: {}
+[22.994337] (-) TimerEvent: {}
+[23.094774] (-) TimerEvent: {}
+[23.195188] (-) TimerEvent: {}
+[23.295615] (-) TimerEvent: {}
+[23.351816] (tb4_cpp_prac7) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_astar_planner.dir/all] Error 2\n'}
+[23.352188] (tb4_cpp_prac7) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.355299] (tb4_cpp_prac7) CommandEnded: {'returncode': 2}
+[23.395730] (-) TimerEvent: {}
+[23.436777] (tb4_cpp_prac7) JobEnded: {'identifier': 'tb4_cpp_prac7', 'rc': 2}
+[23.446741] (-) EventReactorShutdown: {}

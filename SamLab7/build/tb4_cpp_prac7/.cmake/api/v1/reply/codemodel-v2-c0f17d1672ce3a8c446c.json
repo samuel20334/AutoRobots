@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6d2b302a059e916aa2c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tb4_cpp_prac7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "iar_astar_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iar_astar_planner-8ddb8af480414585e4e9.json",
+					"name" : "iar_astar_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb4_cpp_prac7_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb4_cpp_prac7_uninstall-7e4785fff0e2baa5e649.json",
+					"name" : "tb4_cpp_prac7_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e3bf9b8169818c3d25d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7",
+		"source" : "/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,43 @@
+[0.011s] Invoking command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7 -- -j6 -l6
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target iar_astar_planner[0m
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o[0m
+[2.946s] [ 66%] [32m[1mLinking CXX shared library libiar_astar_planner.so[0m
+[4.789s] [100%] Built target iar_astar_planner
+[4.799s] Invoked command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7 -- -j6 -l6
+[4.809s] Invoking command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7
+[4.814s] -- Install configuration: ""
+[4.814s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/iar_astar_planner.xml
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/include
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/include/iar_astar_planner
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/include/iar_astar_planner/navfn.hpp
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/include/iar_astar_planner/iar_astar_planner.hpp
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/lib/libiar_astar_planner.so
+[4.815s] -- Set runtime path of "/home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/lib/libiar_astar_planner.so" to ""
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7//launch
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7//launch/navigation_launch.py
+[4.815s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7//config
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7//config/nav2_params.yaml
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/library_path.sh
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/library_path.dsv
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac7
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac7
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/ament_prefix_path.sh
+[4.816s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/ament_prefix_path.dsv
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/path.sh
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/path.dsv
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.bash
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.sh
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.zsh
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.dsv
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/package.dsv
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/ament_index/resource_index/packages/tb4_cpp_prac7
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/ament_index/resource_index/nav2_core__pluginlib__plugin/tb4_cpp_prac7
+[4.817s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/export_tb4_cpp_prac7Export.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/export_tb4_cpp_prac7Export-noconfig.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_libraries-extras.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_targets-extras.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/tb4_cpp_prac7Config.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/tb4_cpp_prac7Config-version.cmake
+[4.818s] -- Installing: /home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7/share/tb4_cpp_prac7/package.xml
+[4.820s] Invoked command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7

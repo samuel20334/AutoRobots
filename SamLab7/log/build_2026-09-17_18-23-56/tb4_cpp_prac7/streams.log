@@ -1,0 +1,70 @@
+[0.046s] Invoking command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7 -DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7
+[1.299s] -- The C compiler identification is GNU 12.3.0
+[2.114s] -- The CXX compiler identification is GNU 12.3.0
+[2.388s] -- Detecting C compiler ABI info
+[2.557s] -- Detecting C compiler ABI info - done
+[2.564s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.591s] -- Detecting C compile features
+[2.593s] -- Detecting C compile features - done
+[2.675s] -- Detecting CXX compiler ABI info
+[2.783s] -- Detecting CXX compiler ABI info - done
+[2.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.791s] -- Detecting CXX compile features
+[2.791s] -- Detecting CXX compile features - done
+[2.797s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.415s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.935s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.975s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[4.990s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.007s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.143s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.789s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.839s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.003s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.037s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.111s] -- Looking for pthread.h
+[6.336s] -- Looking for pthread.h - found
+[6.336s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.421s] -- Found Threads: TRUE  
+[7.242s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.490s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[7.647s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[7.650s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[7.757s] -- Found nav2_util: 1.1.20 (/opt/ros/humble/share/nav2_util/cmake)
+[8.496s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.498s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.498s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.586s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[9.302s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.557s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.557s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/include>
+[9.557s] -- Configured cppcheck exclude dirs and/or files: 
+[9.558s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.559s] -- Added test 'lint_cmake' to check CMake code style
+[9.560s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.562s] -- Added test 'uncrustify' to check C / C++ code style
+[9.562s] -- Configured uncrustify additional arguments: 
+[9.563s] -- Added test 'xmllint' to check XML markup files
+[9.583s] -- Configuring done
+[11.709s] -- Generating done
+[11.715s] -- Build files have been written to: /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7
+[11.734s] Invoked command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7 -DCMAKE_INSTALL_PREFIX=/home/robotai/AutoRobots/SamLab7/install/tb4_cpp_prac7
+[11.736s] Invoking command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7 -- -j6 -l6
+[11.795s] [ 66%] [32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o[0m
+[11.795s] [ 66%] [32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o[0m
+[18.607s] [01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:[m[K In member function ‘[01m[Kbool iar_astar_planner::NavFn::propAstar(int)[m[K’:
+[18.607s] [01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:235:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpb[m[K’ was not declared in this scope
+[18.607s]   235 |             [01;31m[Kpb[m[K = curPotentArr_;
+[18.607s]       |             [01;31m[K^~[m[K
+[18.613s] [01m[K/home/robotai/AutoRobots/SamLab7/tb4_cpp_prac7/tb4_cpp_prac7/src/navfn.cpp:236:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[18.613s]   236 |             [01;31m[Ki[m[K = n_curPotentArr_;
+[18.613s]       |             [01;31m[K^[m[K
+[19.175s] gmake[2]: *** [CMakeFiles/iar_astar_planner.dir/build.make:90: CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o] Error 1
+[19.175s] gmake[2]: *** Waiting for unfinished jobs....
+[23.351s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_astar_planner.dir/all] Error 2
+[23.351s] gmake: *** [Makefile:146: all] Error 2
+[23.355s] Invoked command in '/home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/AutoRobots/SamLab7/build/tb4_cpp_prac7 -- -j6 -l6
