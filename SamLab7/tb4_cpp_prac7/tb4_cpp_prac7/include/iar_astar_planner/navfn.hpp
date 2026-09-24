@@ -99,7 +99,7 @@ namespace iar_astar_planner
                 {overflowPotentArr_[n_overflowPotentArr_++] = n;\
                 pending_[n] = true;}}
         
-        inline int NavFn::octileHeuristic(int dx, int dy) const;
+        int NavFn::octileHeuristic(int dx, int dy);
         bool propAstar(int cycles);
         void updateCell(int n);
         int calcPath(int n);

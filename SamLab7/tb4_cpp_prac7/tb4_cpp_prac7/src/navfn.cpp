@@ -200,7 +200,7 @@ namespace iar_astar_planner
         return true;
     }
 
-    inline int NavFn::octileHeuristic(int dx, int dy) const
+    int NavFn::octileHeuristic(int dx, int dy) 
     {
         dx = std::abs(dx);
         dy = std::abs(dy);
