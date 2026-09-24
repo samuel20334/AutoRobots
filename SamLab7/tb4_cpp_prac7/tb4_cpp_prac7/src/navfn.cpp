@@ -200,6 +200,15 @@ namespace iar_astar_planner
         return true;
     }
 
+    inline int NavFn::octileHeuristic(int dx, int dy) const
+    {
+        dx = std::abs(dx);
+        dy = std::abs(dy);
+        int dmin = std::min(dx, dy);
+        int dmax = std::max(dx, dy);
+        return static_cast<int>(COST_NEUTRAL * dmax + (COST_NEUTRAL * SQUAREROOT2 - COST_NEUTRAL) * dmin);
+    }
+
     bool NavFn::propAstar(int cycles)
     {
         int max_blk_size = 0;  // max priority block size
@@ -211,7 +220,7 @@ namespace iar_astar_planner
             Compute the heuristic distance from start cell to goal cell
             and add the heuristic distance to the potential threshold
         */
-        int heur = COST_NEUTRAL*(abs(goal_[0] - start_[0]) + abs(goal_[1] - start_[1]));
+        int heur = octileHeuristic(goal_[0] - start_[0], goal_[1] - start_[1]);
         potentThresh_ += heur;
         
         bool propSuccess = false;
@@ -343,7 +352,7 @@ namespace iar_astar_planner
                 */
                 int x = n % nx_;
                 int y = n / nx_;
-                pot += COST_NEUTRAL*(abs(goal_[0] - x) + abs(goal_[1] - y));
+                pot += octileHeuristic(goal_[0] - x, goal_[1] - y);
 
                 if (pot < potentThresh_)
                 {
