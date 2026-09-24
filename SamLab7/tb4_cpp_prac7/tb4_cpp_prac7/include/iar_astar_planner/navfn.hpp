@@ -98,7 +98,8 @@ namespace iar_astar_planner
                 costarr_[n]<COST_OBS && n_overflowPotentArr_ < BUFFERSIZE)\
                 {overflowPotentArr_[n_overflowPotentArr_++] = n;\
                 pending_[n] = true;}}
-
+        
+        inline int NavFn::octileHeuristic(int dx, int dy) const;
         bool propAstar(int cycles);
         void updateCell(int n);
         int calcPath(int n);

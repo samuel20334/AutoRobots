@@ -206,7 +206,7 @@ namespace iar_astar_planner
         dy = std::abs(dy);
         int dmin = std::min(dx, dy);
         int dmax = std::max(dx, dy);
-        return static_cast<int>(COST_NEUTRAL * dmax + (COST_NEUTRAL * SQUAREROOT2 - COST_NEUTRAL) * dmin);
+        return static_cast<int>(COST_NEUTRAL * dmax + (COST_NEUTRAL * sqrt(2) - COST_NEUTRAL) * dmin);
     }
 
     bool NavFn::propAstar(int cycles)
